@@ -1,19 +1,19 @@
 <div align="center">
 
-<img src="./Branding/Logo%20horizontal%20curved.png" alt="Quantivelle — Kyro WORKSAPCE" width="620">
+<img src="./Branding/Logo%20horizontal%20curved.png" alt="Quantivelle — Kyro-Workspace I" width="620">
 
-# Kyro WORKSAPCE
+# Kyro-Workspace I
 
 **Your local-first AI study partner that turns any PDF into summaries, notes, quizzes, and flashcards.**
 
-[![Open Kyro WORKSAPCE](https://img.shields.io/badge/Try%20it%20Live-Open%20Kyro%20WORKSAPCE-4f46e5?style=for-the-badge&logo=githubpages&logoColor=white)](https://quantivelle.github.io/Kyro-WORKSAPCE/)
+[![Open Kyro-Workspace I](https://img.shields.io/badge/Try%20it%20Live-Open%20Kyro-Workspace%20I-4f46e5?style=for-the-badge&logo=githubpages&logoColor=white)](https://quantivelle.github.io/Kyro-Workspace/)
 
 **👉 Click above and start using it right now — no install, no signup, no waiting.**
 ---
 
 Hey there! I'm glad you found your way here. Let me walk you through what you're looking at.
 
-**Kyro WORKSAPCE** is a document learning platform that lives entirely inside your browser. You hand it a PDF, and it hands you back summaries, study notes, quizzes, flashcards, and plain-English explanations — all powered by AI.
+**Kyro-Workspace I** is a document learning platform that lives entirely inside your browser. You hand it a PDF, and it hands you back summaries, study notes, quizzes, flashcards, and plain-English explanations — all powered by AI.
 
 Here's the part you'll appreciate: everything runs locally. We extract your PDF's text with [pdf.js](https://mozilla.github.io/pdf.js/) right on your machine, then send it straight from *your* browser to [OpenRouter](https://openrouter.ai/) models. There are no accounts, no backend servers, and no tracking. Your API key and your saved notes never leave your device.
 
@@ -60,8 +60,8 @@ The site is a set of static pages with no build step:
 ### Handle your documents your way
 
 - You get a multi-file PDF library with drag-and-drop upload — drop in as many documents as you like.
-- Text extraction happens locally, with layout, powers, and element detection preserved.
-- Hindi content is detected automatically (English documents only for now).
+- Text extraction happens locally, with layout, tables and element detection preserved.
+- Hindi PDFs are detected automatically and politely declined, because only English documents are supported for now.
 - You can read the original PDF inline, with full page navigation.
 
 ### Let the AI do the heavy lifting
@@ -102,7 +102,7 @@ There is no application backend. The only outbound network call you make is to `
 
 ## Tech stack
 
-All third-party libraries are vendored locally under `vendor/` — you get no CDN dependencies at runtime.
+All third-party libraries are vendored locally under `vendor/`, so there are no CDN dependencies at runtime.
 
 | Library | Purpose |
 | --- | --- |
@@ -117,7 +117,7 @@ The landing page and the application are both single static pages (`index.html` 
 
 ## Run it locally
 
-You don't have to. **Just use the live version:** [https://vaguevault76-ctrl.github.io/StudyMind-AI/](https://vaguevault76-ctrl.github.io/StudyMind-AI/)
+You don't have to. **Just use the live version:** [https://quantivelle.github.io/Kyro-Workspace/](https://quantivelle.github.io/Kyro-Workspace/)
 
 If you'd rather run it yourself, there's no build step. Open `index.html` (landing page) or `app.html` (the tool) in a modern browser, or serve the folder:
 
@@ -206,4 +206,4 @@ You're free to use the code under the [Apache License 2.0](./LICENSE).
 
 ## Trademark
 
-**Quantivelle™**, **Kyro WORKSAPCE™** and the Quantivelle logo are trademarks of Quantivelle. The open-source license covers the code only; use of the brand assets requires permission. See [trademarks.html](./trademarks.html).
+**Quantivelle™**, **Kyro-Workspace I™** and the Quantivelle logo are trademarks of Quantivelle. The open-source license covers the code only; use of the brand assets requires permission. See [trademarks.html](./trademarks.html).

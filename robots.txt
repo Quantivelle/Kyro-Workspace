@@ -1,5 +1,14 @@
-# Kyro WORKSAPCE robots.txt
+# robots.txt for Kyro-Workspace I
+# https://quantivelle.github.io/Kyro-Workspace/
+
 User-agent: *
 Allow: /
 
-Sitemap: https://vaguevault76-ctrl.github.io/StudyMind-AI/sitemap.xml
+# Search engine crawlers may read CSS/JS so pages render correctly.
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+Sitemap: https://quantivelle.github.io/Kyro-Workspace/sitemap.xml
